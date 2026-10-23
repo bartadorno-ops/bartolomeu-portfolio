@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfólio de Bartolomeu Adorno, estudante de Engenharia de Software e desenvolvedor em início de carreira." />
+  <title>Bartolomeu Adorno | Portfólio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a class="brand" href="#inicio">BA<span>.</span></a>
+      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#sobre">Sobre</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="inicio">
+      <div class="hero-content reveal">
+        <p class="eyebrow">ESTUDANTE DE ENGENHARIA DE SOFTWARE</p>
+        <h1>Transformando ideias em <span>experiências digitais.</span></h1>
+        <p class="hero-text">Olá, eu sou Bartolomeu Adorno. Estou iniciando minha carreira em tecnologia e desenvolvendo soluções com criatividade, dedicação e vontade de evoluir.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projetos">Ver projetos</a>
+          <a class="button secondary" href="#contato">Entrar em contato</a>
+        </div>
+      </div>
+      <div class="hero-card reveal">
+        <div class="code-window">
+          <div class="window-bar"><i></i><i></i><i></i></div>
+          <pre><code><span class="code-purple">const</span> desenvolvedor = {
+  nome: <span class="code-green">"Bartolomeu Adorno"</span>,
+  foco: <span class="code-green">"Desenvolvimento Web"</span>,
+  stack: [<span class="code-green">"HTML"</span>, <span class="code-green">"CSS"</span>,
+          <span class="code-green">"JavaScript"</span>, <span class="code-green">"Node.js"</span>],
+  status: <span class="code-green">"Sempre aprendendo"</span>
+};</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="sobre">
+      <div class="section-heading reveal"><p class="eyebrow">01 / SOBRE MIM</p><h2>Construindo minha jornada na tecnologia.</h2></div>
+      <div class="about-grid">
+        <p class="lead reveal">Sou estudante de Engenharia de Software e estou iniciando minha carreira com o objetivo de criar sites, aplicações e soluções úteis para pessoas e negócios.</p>
+        <div class="about-copy reveal"><p>Tenho interesse por desenvolvimento web, aplicativos mobile e pela construção de projetos que combinam boa aparência, organização e funcionalidade.</p><p>Meu foco é continuar aprendendo, praticar todos os dias e transformar conhecimento em projetos reais.</p></div>
+      </div>
+    </section>
+
+    <section class="section muted" id="habilidades">
+      <div class="container"><div class="section-heading reveal"><p class="eyebrow">02 / HABILIDADES</p><h2>Tecnologias que estou estudando e utilizando.</h2></div>
+        <div class="skills-grid">
+          <article class="skill-card reveal"><span class="skill-number">01</span><h3>HTML5</h3><p>Estrutura semântica, acessível e organizada para páginas web.</p></article>
+          <article class="skill-card reveal"><span class="skill-number">02</span><h3>CSS3</h3><p>Layouts responsivos, estilos modernos e experiências adaptáveis.</p></article>
+          <article class="skill-card reveal"><span class="skill-number">03</span><h3>JavaScript</h3><p>Interatividade, lógica de programação e funcionalidades dinâmicas.</p></article>
+          <article class="skill-card reveal"><span class="skill-number">04</span><h3>Node.js</h3><p>Aplicações e APIs para desenvolver soluções completas.</p></article>
+          <article class="skill-card reveal"><span class="skill-number">05</span><h3>Java</h3><p>Fundamentos de programação e construção de aplicações.</p></article>
+          <article class="skill-card reveal"><span class="skill-number">06</span><h3>React</h3><p>Interfaces reutilizáveis e aplicações web modernas.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="projetos">
+      <div class="section-heading reveal"><p class="eyebrow">03 / PROJETOS</p><h2>Projetos em destaque.</h2></div>
+      <div class="projects-grid">
+        <article class="project-card featured reveal"><div class="project-top"><span>01</span><span>WEB</span></div><h3>Criação de sites</h3><p>Desenvolvimento de sites modernos, organizados e responsivos, com foco em clareza, usabilidade e boa experiência para os usuários.</p><div class="tags"><span>HTML</span><span>CSS</span><span>Node.js</span></div><a class="project-link" href="#contato">Saiba mais <span>↗</span></a></article>
+        <article class="project-card reveal"><div class="project-top"><span>02</span><span>MOBILE</span></div><h3>Aplicativos mobile</h3><p>Estudo e desenvolvimento de ideias para aplicativos voltados a resolver problemas do dia a dia.</p><div class="tags"><span>Java</span><span> lógica</span><span>VS Code</span></div><a class="project-link" href="#contato">Em construção <span>↗</span></a></article>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contato"><div class="container contact-content reveal"><p class="eyebrow">04 / CONTATO</p><h2>Vamos criar algo interessante juntos?</h2><p>Estou aberto a conversas sobre tecnologia, projetos, oportunidades e colaborações.</p><div class="contact-list"><span>📧 bartolomeu@gmail.com</span><span>📞 11 98012-2179</span><span>📘 BartolomeuAdr</span></div></div></section>
+  </main>
+
+  <footer class="footer container"><span>© <span id="year"></span> Bartolomeu Adorno</span><span>Construindo, aprendendo e evoluindo.</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
