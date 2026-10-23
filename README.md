@@ -30,7 +30,7 @@ Site-portfólio responsivo de Bartolomeu Adorno, estudante de Engenharia de Soft
 ```bash
 node server.js
 ```
-Atualiza informações de contato e LinkedIn
+
 5. Abra o endereço local informado no terminal.
 
 ## Contato
